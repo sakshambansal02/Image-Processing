@@ -22,3 +22,13 @@ Map to Green and Blue (GB): Here, I specifically applied the Image Map to remove
 <br> 
 Map Flip Colors: This applies a color-flipping transformation across the entire image, which can produce some really cool effects!
 <br> 
+
+
+
+Testing:
+
+Functionality Tests: For each image processing function (removeRed, flipColors, etc.), I have written specific tests to validate their expected behavior. These tests involve applying the function to a predefined image and comparing the output to an expected result.
+
+Edge Cases: I have also included tests for edge cases, such as processing an empty image or applying transformations to specific pixel ranges, to ensure that the functions handle unusual inputs gracefully.
+
+Performance Tests: While these are more rudimentary, I have also included some basic performance tests to ensure that the functions perform optimally, even with larger images.
